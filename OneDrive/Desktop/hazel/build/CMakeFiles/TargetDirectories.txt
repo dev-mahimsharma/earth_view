@@ -1,0 +1,3 @@
+C:/Users/spars/OneDrive/Desktop/hazel/build/CMakeFiles/hazel.dir
+C:/Users/spars/OneDrive/Desktop/hazel/build/CMakeFiles/edit_cache.dir
+C:/Users/spars/OneDrive/Desktop/hazel/build/CMakeFiles/rebuild_cache.dir

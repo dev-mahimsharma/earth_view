@@ -1,0 +1,9 @@
+# ninja log v7
+45	85	7993285048590255	C:/Users/spars/OneDrive/Desktop/hazel/build/CMakeFiles/cmake.verify_globs	806d4d92073ae3bb
+96	244	7993285049097502	CMakeFiles/hazel.dir/main.c.obj	3ed4af034885272c
+244	504	7993285050581109	hazel.exe	872b342160fe3fc
+89	181	7993285049027523	CMakeFiles/hazel.dir/camera.c.obj	922ed56e4cfae17f
+40	79	7993294172715981	C:/Users/spars/OneDrive/Desktop/hazel/build/CMakeFiles/cmake.verify_globs	806d4d92073ae3bb
+82	171	7993294173128124	CMakeFiles/hazel.dir/camera.c.obj	922ed56e4cfae17f
+88	219	7993294173188119	CMakeFiles/hazel.dir/main.c.obj	3ed4af034885272c
+219	392	7993294174498980	hazel.exe	872b342160fe3fc

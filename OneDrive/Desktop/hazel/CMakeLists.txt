@@ -43,6 +43,29 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     ${HAZEL_INCLUDE_DIRS}
 )
 
+find_library(RAYLIB_LIBRARY
+    NAMES raylib libraylib
+    PATHS
+        "C:/raylib/raylib/src"
+        "C:/raylib/w64devkit/lib"
+)
+
+if(NOT RAYLIB_LIBRARY)
+    message(FATAL_ERROR "raylib library was not found. Install raylib or update RAYLIB_LIBRARY paths in CMakeLists.txt.")
+endif()
+
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    "${RAYLIB_LIBRARY}"
+)
+
+if(WIN32)
+    target_link_libraries(${PROJECT_NAME} PRIVATE
+        opengl32
+        gdi32
+        winmm
+    )
+endif()
+
 set_target_properties(${PROJECT_NAME} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}"
 )
